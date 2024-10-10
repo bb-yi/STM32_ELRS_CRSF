@@ -1,0 +1,4 @@
+arm-none-eabi-objcopy --update-section ER_IROM1="C:\Users\li\AppData\Local\Temp\\STM32F407_ELRS_9RT4CkHX.bin" "d:\my_video_project\stm32\elrs_rx\STM32F407_ELRS\MDK-ARM\build\STM32F407_ELRS\STM32F407_ELRS.axf" "d:\my_video_project\stm32\elrs_rx\STM32F407_ELRS\MDK-ARM\build\STM32F407_ELRS\STM32F407_ELRS.elf"
+
+arm-none-eabi-objcopy: d:\my_video_project\stm32\elrs_rx\STM32F407_ELRS\MDK-ARM\build\STM32F407_ELRS\STM32F407_ELRS.elf: warning: allocated section `RW_IRAM1' not in segment
+
